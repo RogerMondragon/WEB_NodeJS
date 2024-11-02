@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://www.deanime.info/wp-content/uploads/2019/05/goku-niño-contra-jackie-chun-dragon-ball.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    
+  }
+  
+  header {
+    background-color:rgba(255, 255, 255, 0.5);
+    
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    animation: fadeIn 2s, slideIn 3s ease-in-out;
+  }
+
+  p {
+    background-color:rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 1.5em;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateY(-50px); }
+    to { transform: translateY(0); }
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  form {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
